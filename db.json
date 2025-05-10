@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "hanhoa",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "name": "Bàn học trẻ em",
+      "price": 380000,
+      "discount": 280000,
+      "category": "Đồ trang trí",
+      "type": "Bàn làm việc",
+      "material": "Gỗ lim",
+      "image": "../../assets/images/ban_hoc_tre_em.jpg",
+      "size": "1200x750x600 mm",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Bàn làm việc Bengo",
+      "price": 480000,
+      "discount": 420000,
+      "image": "../../assets/images/ban_lam_viec_bengo.jpg",
+      "category": "Đồ trang trí",
+      "type": "Bàn làm việc",
+      "material": "Gỗ thông",
+      "size": "1200x750x600 mm"
+    },
+    {
+      "id": "3",
+      "name": "Bộ chăn ga gối Evetorn",
+      "price": 260000,
+      "discount": 0,
+      "image": "../../assets/images/bo_chan_goi_evetorn.jpg",
+      "category": "Phòng ngủ",
+      "type": "Chăn ga thảm",
+      "material": "Vải 100% Cotton",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "4",
+      "name": "Thảm Thổ Nhĩ Kỳ Neva",
+      "price": 350000,
+      "discount": 0,
+      "image": "../../assets/images/tham_tho_nhi_ky_neva.jpg",
+      "category": "Phòng ngủ",
+      "type": "Chăn ga thảm",
+      "material": "Vải 50% Cotton, 50% Polyester",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "5",
+      "name": "Sofa bộ Italia - Canova 3",
+      "price": 250000,
+      "discount": 0,
+      "image": "../../assets/images/sofa_bo_italia_canova_3.jpg",
+      "category": "Phòng ngủ",
+      "type": "Bộ sofa",
+      "material": "Bông và gỗ",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "6",
+      "name": "Sofa bộ Italia - Canova 4",
+      "price": 320000,
+      "discount": 0,
+      "image": "../../assets/images/sofa_bo_italia_canova_4.jpg",
+      "category": "Phòng ngủ",
+      "type": "Bộ sofa",
+      "material": "Polyester",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "7",
+      "name": "Sofa bộ Italia - Canova 2",
+      "price": 50000,
+      "discount": 0,
+      "image": "../../assets/images/sofa_bo_italia_canova_2.jpg",
+      "category": "Phòng ngủ",
+      "type": "Bộ sofa",
+      "material": "Da tự nhiên",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "8",
+      "name": "Bàn ăn ghế nhỏ hiện đại",
+      "price": 4900000,
+      "discount": 3890000,
+      "image": "../../assets/images/ban_an_1.jpg",
+      "category": "Phòng bếp",
+      "type": "Bộ bàn ăn",
+      "material": "Gỗ tự nhiên",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "9",
+      "name": "Bàn ăn 6 ghê ngồi gỗ sồi Nga",
+      "price": 3700000,
+      "discount": 1690000,
+      "image": "../../assets/images/ban_an_2.jpg",
+      "category": "Phòng bếp",
+      "type": "Bộ bàn ăn",
+      "material": "Gỗ sồi",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "10",
+      "name": "Bàn ăn 4 ghế kiểu dáng hiện đại",
+      "price": 7500000,
+      "discount": 4990000,
+      "image": "../../assets/images/ban_an_3.jpg",
+      "category": "Phòng bếp",
+      "type": "Bộ bàn ăn",
+      "material": "Gỗ lim",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "11",
+      "name": "Đồng hồ quả lắc đứng",
+      "price": 7500000,
+      "discount": 4990000,
+      "image": "../../assets/images/dong_ho.jpg",
+      "category": "Đồ trang trí",
+      "type": "Đồ gỗ mỹ nghệ",
+      "material": "Gỗ Hương Chạm Hoa Tây",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "12",
+      "name": "Tủ bếp sang trọng hiện đại",
+      "price": 5000000,
+      "discount": 4500000,
+      "image": "../../assets/images/tu_bep_1.jpg",
+      "category": "Phòng bếp",
+      "type": "Tủ bếp",
+      "material": "Gỗ ép tự nhiên",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "13",
+      "name": "Tủ bếp nhiều ngăn tiện dụng",
+      "price": 3700000,
+      "discount": 3490000,
+      "image": "../../assets/images/tu_bep_2.jpg",
+      "category": "Phòng bếp",
+      "type": "Tủ bếp",
+      "material": "Gỗ ép",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "14",
+      "name": "Tủ bếp đựng bát đĩa",
+      "price": 2000000,
+      "discount": 1490000,
+      "image": "../../assets/images/tu_bep_3.jpg",
+      "category": "Phòng bếp",
+      "type": "Tủ bếp",
+      "material": "Gỗ nguyên miếng",
+      "size": "1m8x2m"
+    },
+    {
+      "id": "15",
+      "name": "Cặp lục bình gỗ Hương đỏ",
+      "price": 20000000,
+      "discount": 15490000,
+      "image": "../../assets/images/luc_binh.jpg",
+      "category": "Đồ trang trí",
+      "type": "Đồ gỗ mỹ nghệ",
+      "material": "Gỗ Hương Đỏ",
+      "size": "1m8x2m"
+    }
+  ],
+  "customer_feedbacks": [
+    {
+      "id": "1",
+      "name": "Nguyễn Thảo Linh",
+      "content": "Nội thất phòng ngủ là không gian quan trọng và luôn cần được trang trí thật phù hợp và thật đẹp. Do vậy, việc chọn mua nội thất phòng ngủ cần được chú ý và lựa chọn kỹ lưỡng. Mình đã mua sản phẩm bàn học trẻ em và rất hài lòng với chất lượng sản phẩm",
+      "occupation": "Kế toán",
+      "avatar": "../../assets/images/avatar1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Vân Anh",
+      "content": "Nội thất phòng ngủ là không gian quan trọng và luôn cần được trang trí thật phù hợp và thật đẹp. Do vậy, việc chọn mua nội thất phòng ngủ cần được chú ý và lựa chọn kỹ lưỡng. Mình đã mua sản phẩm bàn học trẻ em và rất hài lòng với chất lượng sản phẩm",
+      "occupation": "Designer",
+      "avatar": "../../assets/images/avatar2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Hoài Thương",
+      "content": "Nội thất phòng ngủ là không gian quan trọng và luôn cần được trang trí thật phù hợp và thật đẹp. Do vậy, việc chọn mua nội thất phòng ngủ cần được chú ý và lựa chọn kỹ lưỡng. Mình đã mua sản phẩm bàn học trẻ em và rất hài lòng với chất lượng sản phẩm",
+      "occupation": "Quản lý",
+      "avatar": "../../assets/images/avatar3.jpg"
+    }
+  ]
+}
