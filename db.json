@@ -393,27 +393,38 @@
       "type": "Giày",
       "material": "Da tổng hợp PU + Đế cao su chống trượt",
       "size": "39-44"
+    },
+    {
+      "id": "35",
+      "name": "Giày trẻ em cao cổ",
+      "price": 200000,
+      "discount": 179000,
+      "image": "../../assets/images/giay-tre-em-2.jpg",
+      "category": "Thời trang trẻ em",
+      "type": "Giày",
+      "material": "Vải Wool-like",
+      "size": "29-34"
     }
   ],
   "customer_feedbacks": [
     {
       "id": "1",
       "name": "Nguyễn Thanh Hà",
-      "content": "Mình rất ấn tượng với bộ sưu tập đồ nam của HUST – thiết kế trẻ trung, chất vải mát và form dáng chuẩn. Nhân viên tư vấn nhiệt tình, chắc chắn sẽ quay lại!",
+      "content": "Mình rất ấn tượng với bộ sưu tập đồ nam của shop – thiết kế trẻ trung, chất vải mát và form dáng chuẩn. Nhân viên tư vấn nhiệt tình, chắc chắn sẽ quay lại!",
       "occupation": "Nhân viên văn phòng",
       "avatar": "../../assets/images/avatar1.jpg"
     },
     {
       "id": "2",
       "name": "Nguyễn Huỳnh Đức",
-      "content": "HUST có nhiều mẫu áo cực kỳ đẹp và sang, giá cả hợp lý. Mình rất thích không gian cửa hàng, rộng rãi và bày trí bắt mắt. Rất đáng để ghé thăm mỗi khi cần mua đồ!",
+      "content": "Shop có nhiều mẫu áo cực kỳ đẹp và sang, giá cả hợp lý. Mình rất thích không gian cửa hàng, rộng rãi và bày trí bắt mắt. Rất đáng để ghé thăm mỗi khi cần mua đồ!",
       "occupation": "Designer",
       "avatar": "../../assets/images/avatar2.jpg"
     },
     {
       "id": "3",
       "name": "Hàn Minh Hoà",
-      "content": "Đồ trẻ em ở HUST rất dễ thương, chất liệu mềm mại, an toàn cho bé. Mình mua cho con 2 bộ mà bé mặc rất thoải mái. Sẽ giới thiệu cho các mẹ bỉm khác!",
+      "content": "Đồ trẻ em ở shop rất dễ thương, chất liệu mềm mại, an toàn cho bé. Mình mua cho con 2 bộ mà bé mặc rất thoải mái. Sẽ giới thiệu cho các mẹ bỉm khác!",
       "occupation": "Quản lý",
       "avatar": "../../assets/images/avatar3.jpg"
     }
