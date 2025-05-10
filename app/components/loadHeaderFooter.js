@@ -158,7 +158,7 @@ function initSearchInput() {
 // Hàm gọi API lấy danh sách sản phẩm
 async function fetchProducts() {
     try {
-        const response = await fetch("http://localhost:3001/products");
+        const response = await fetch(`${ENV.API_URL}/products`);
         return await response.json();
     } catch (error) {
         console.error("Lỗi khi tải sản phẩm:", error);

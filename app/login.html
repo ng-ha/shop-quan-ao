@@ -37,7 +37,7 @@
         }
 
         try {
-            const response = await fetch("http://localhost:3001/users");
+            const response = await fetch(`${ENV.API_URL}/users`);
 
             if (!response.ok) {
                 throw new Error(`Lỗi HTTP: ${response.status}`);

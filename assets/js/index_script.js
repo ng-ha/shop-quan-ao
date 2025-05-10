@@ -1,6 +1,6 @@
 let allProducts = [];
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("http://localhost:3001/products")
+    fetch(`${ENV.API_URL}/products`)
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Lỗi HTTP: ${response.status}`);
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error("Lỗi tải sản phẩm:", error));
 
-    fetch("http://localhost:3001/customer_feedbacks")
+    fetch(`${ENV.API_URL}/customer_feedbacks`)
         .then(response => response.json())
         .then(customerFeedbacks => {
             const feedbackList = document.getElementById("feedback-list");

@@ -1,10 +1,9 @@
-const API_URL = "http://localhost:3001/products";
 const productForm = document.getElementById("productForm");
 const productList = document.getElementById("productList");
 
 // 1️⃣ Lấy danh sách sản phẩm
 async function fetchProducts() {
-    const res = await fetch(API_URL);
+    const res = await fetch(`${ENV.API_URL}/products`);
     const products = await res.json();
     renderProducts(products);
 }
@@ -46,19 +45,19 @@ productForm.addEventListener("submit", async (e) => {
     };
 
     if (id) {
-        await fetch(`${API_URL}/${id}`, {
+        await fetch(`${ENV.API_URL}/products/${id}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(productData),
         });
     } else {
-        const res = await fetch(API_URL);
+        const res = await fetch(`${ENV.API_URL}/products`);
         const products = await res.json();
 
         const maxId = products.length > 0 ? Math.max(...products.map(p => p.id)) : 0;
         productData.id = (maxId + 1).toString();
 
-        await fetch(API_URL, {
+        await fetch(`${ENV.API_URL}/products`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(productData),
@@ -71,7 +70,7 @@ productForm.addEventListener("submit", async (e) => {
 
 // 4️⃣ Sửa sản phẩm
 async function editProduct(id) {
-    const res = await fetch(`${API_URL}/${id}`);
+    const res = await fetch(`${ENV.API_URL}/products/${id}`);
     const product = await res.json();
 
     document.getElementById("productId").value = product.id;
@@ -88,7 +87,7 @@ async function editProduct(id) {
 // 5️⃣ Xóa sản phẩm
 async function deleteProduct(id) {
     if (confirm("Bạn có chắc muốn xóa sản phẩm này?")) {
-        await fetch(`${API_URL}/${id}`, { method: "DELETE" });
+        await fetch(`${ENV.API_URL}/products/${id}`, { method: "DELETE" });
         fetchProducts();
     }
 }

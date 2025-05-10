@@ -31,7 +31,7 @@
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
 
-        const response = await fetch("http://localhost:3001/users");
+        const response = await fetch(`${ENV.API_URL}/users`);
         const users = await response.json();
 
         if (users.some(user => user.username === username)) {
@@ -41,7 +41,7 @@
 
         const newUser = { id: users.length + 1, username, password, role: "user" };
 
-        await fetch("http://localhost:3001/users", {
+        await fetch(`${ENV.API_URL}/users`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(newUser)

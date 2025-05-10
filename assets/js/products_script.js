@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Cập nhật tiêu đề trang
     document.getElementById("category-title").innerText = category;
 
-    fetch("http://localhost:3001/products")
+    fetch(`${ENV.API_URL}/products`)
         .then(response => response.json())
         .then(products => {
             // Lọc sản phẩm theo danh mục

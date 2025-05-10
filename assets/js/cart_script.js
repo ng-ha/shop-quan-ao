@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener("click", function () {
             const productId = parseInt(this.getAttribute("data-id"));
 
-            fetch(`http://localhost:3001/products/${productId}`)
+            fetch(`${ENV.API_URL}/products/${productId}`)
                 .then(response => response.json())
                 .then(product => addToCart(product))
                 .catch(error => console.error("Lỗi khi lấy sản phẩm:", error));
