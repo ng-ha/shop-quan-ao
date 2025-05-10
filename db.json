@@ -48,7 +48,7 @@
       "price": 260000,
       "discount": 0,
       "image": "../../assets/images/bo_chan_goi_evetorn.jpg",
-      "category": "Phòng ngủ",
+      "category": "Thời trang nam",
       "type": "Chăn ga thảm",
       "material": "Vải 100% Cotton",
       "size": "1m8x2m"
@@ -189,22 +189,22 @@
   "customer_feedbacks": [
     {
       "id": "1",
-      "name": "Nguyễn Thảo Linh",
-      "content": "Nội thất phòng ngủ là không gian quan trọng và luôn cần được trang trí thật phù hợp và thật đẹp. Do vậy, việc chọn mua nội thất phòng ngủ cần được chú ý và lựa chọn kỹ lưỡng. Mình đã mua sản phẩm bàn học trẻ em và rất hài lòng với chất lượng sản phẩm",
-      "occupation": "Kế toán",
+      "name": "Nguyễn Thanh Hà",
+      "content": "Mình rất ấn tượng với bộ sưu tập đồ nam của HUST – thiết kế trẻ trung, chất vải mát và form dáng chuẩn. Nhân viên tư vấn nhiệt tình, chắc chắn sẽ quay lại!",
+      "occupation": "Nhân viên văn phòng",
       "avatar": "../../assets/images/avatar1.jpg"
     },
     {
       "id": "2",
-      "name": "Vân Anh",
-      "content": "Nội thất phòng ngủ là không gian quan trọng và luôn cần được trang trí thật phù hợp và thật đẹp. Do vậy, việc chọn mua nội thất phòng ngủ cần được chú ý và lựa chọn kỹ lưỡng. Mình đã mua sản phẩm bàn học trẻ em và rất hài lòng với chất lượng sản phẩm",
+      "name": "Nguyễn Huỳnh Đức",
+      "content": "HUST có nhiều mẫu áo cực kỳ đẹp và sang, giá cả hợp lý. Mình rất thích không gian cửa hàng, rộng rãi và bày trí bắt mắt. Rất đáng để ghé thăm mỗi khi cần mua đồ!",
       "occupation": "Designer",
       "avatar": "../../assets/images/avatar2.jpg"
     },
     {
       "id": "3",
-      "name": "Hoài Thương",
-      "content": "Nội thất phòng ngủ là không gian quan trọng và luôn cần được trang trí thật phù hợp và thật đẹp. Do vậy, việc chọn mua nội thất phòng ngủ cần được chú ý và lựa chọn kỹ lưỡng. Mình đã mua sản phẩm bàn học trẻ em và rất hài lòng với chất lượng sản phẩm",
+      "name": "Hàn Minh Hoà",
+      "content": "Đồ trẻ em ở HUST rất dễ thương, chất liệu mềm mại, an toàn cho bé. Mình mua cho con 2 bộ mà bé mặc rất thoải mái. Sẽ giới thiệu cho các mẹ bỉm khác!",
       "occupation": "Quản lý",
       "avatar": "../../assets/images/avatar3.jpg"
     }
