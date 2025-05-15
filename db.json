@@ -55,13 +55,13 @@
     },
     {
       "id": "4",
-      "name": "Áo khoác nam thám hiểm",
+      "name": "Áo khoác nam thám hiểm classic quân đội",
       "price": 350000,
       "discount": 300000,
       "image": "../../assets/images/ao-nam-4.jpg",
       "category": "Thời trang nam",
       "type": "Áo khoác",
-      "material": "Vải 50% Cotton, 50% Polyester",
+      "material": "Vải 50% Cotton, 50% Polyester cao cấp",
       "size": "L, XL"
     },
     {

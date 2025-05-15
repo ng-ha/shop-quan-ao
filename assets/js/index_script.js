@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .then(data => {
             allProducts = data;
-            renderProducts(filterProductsByCategory("Phòng ngủ"));
+            renderProducts(filterProductsByCategory("Thời trang nam"));
             renderFeaturedProducts(data);
             updateCartCount();
         })
@@ -47,7 +47,7 @@ document.querySelectorAll(".btn-group button").forEach(button => {
 function renderProducts(products) {
     const productList = document.getElementById("product-list");
     productList.innerHTML = "";
-
+    console.log('products', products);
     products.slice(0, 3).forEach(product => {
         const productHTML = `
                 <div class="col-md-4">
