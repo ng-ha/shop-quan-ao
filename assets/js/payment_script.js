@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("total-price").innerText = formatPrice(totalPrice);
 
-    document.getElementById("payment-form").addEventListener("submit", function (event) {
+    document.getElementById("payment-form").addEventListener("submit", async function (event) {
         event.preventDefault();
 
         let order = {
@@ -17,6 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
             totalPrice: totalPrice,
             cart: cart
         };
+
+        await fetch(`${ENV.API_URL}/payment`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(order),
+        });
 
         console.log("Đơn hàng:", order);
 
